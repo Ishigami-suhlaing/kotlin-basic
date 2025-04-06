@@ -1,0 +1,6 @@
+fun addition(a:Int, b:Int):Int{
+    return a+b
+
+}
+
+print(addition(3,4))
