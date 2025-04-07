@@ -1,0 +1,15 @@
+//data class လုပ်လိုက်ပြီဆိုတာနဲ့ parameter ထည့်ကို ထည့်ရတယ်
+data class Student(var name:String, var location:String){
+    fun show(){
+        println("name is $name and location is $location")
+    }
+
+    fun info():String{
+        return location
+    }
+}
+
+var s1 = Student("Su Su", "Tachileik");
+s1.show()
+
+print(s1.info())
