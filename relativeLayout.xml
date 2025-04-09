@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="240dp"
+        android:layout_height="210dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/txtOne"
+        android:text="Hello Senku Ishigami"
+        android:layout_above="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Science is elegent" />
+
+    <TextView
+        android:id="@+id/txtThree"
+        android:text="Dr.Stone"
+        android:layout_toLeftOf="@+id/txtOne"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
