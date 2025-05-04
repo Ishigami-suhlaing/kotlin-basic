@@ -28,5 +28,5 @@ fun main(){
 
     val totalTaxAmount = TaxCalculator.getTaxAmountForOrderItems(orderItemList)
 
-    print(totalTaxAmount)
+    println(totalTaxAmount)
 }
